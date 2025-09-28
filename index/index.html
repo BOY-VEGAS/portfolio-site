@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Vegas Web Studio</title>
+  <link rel="stylesheet" href="style.css">
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <!-- Navbar -->
+  <header>
+    <nav class="navbar">
+      <div class="logo">
+        <!-- SVG Logo -->
+<div class="logo">
+  <!-- SVG Logo -->
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+    <defs>
+      <linearGradient id="gradTech" x1="0" x2="1" y1="0" y2="1">
+        <stop offset="0%" stop-color="#00c6ff"/>
+        <stop offset="35%" stop-color="#6f5cff"/>
+        <stop offset="70%" stop-color="#ff5ec4"/>
+        <stop offset="100%" stop-color="#2ee7b6"/>
+      </linearGradient>
+      <filter id="softShadow" x="-50%" y="-50%" width="200%" height="200%">
+        <feDropShadow dx="0" dy="8" stdDeviation="14" flood-color="#000" flood-opacity="0.12"/>
+      </filter>
+    </defs>
+
+    <!-- Background -->
+    <rect x="0" y="0" width="200" height="200" rx="36" fill="url(#gradTech)" filter="url(#softShadow)"/>
+    <!-- Left bracket -->
+    <path d="M70 60 L50 100 L70 140" fill="none" stroke="#fff" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
+    <!-- Right bracket -->
+    <path d="M130 60 L150 100 L130 140" fill="none" stroke="#fff" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
+    <!-- Code lines -->
+    <g stroke="#ffffffcc" stroke-width="4" stroke-linecap="round">
+      <path d="M84 86 L100 76 L116 86" fill="none"/>
+      <circle cx="100" cy="76" r="4" fill="#fff"/>
+      <path d="M84 114 L100 124 L116 114" fill="none"/>
+      <circle cx="100" cy="124" r="4" fill="#fff"/>
+    </g>
+  </svg>
+
+  <!-- Text -->
+  <span>Vegas Web Studio</span>
+</div>
+      <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#portfolio">Portfolio</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li class="nav-contact">
+  <a href="https://wa.me/2349130140473?text=Hello%20Vegas%20Web%20Studio%2C%20I%27m%20interested%20in%20your%20services." target="_blank" rel="noopener noreferrer" class="whatsapp-link">WhatsApp</a>
+</li>
+<li class="nav-contact">
+  <a href="tel:+234816432098" class="call-link">Call</a>
+</li>
+
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <section id="home" class="hero">
+    <h1>Welcome to <span>Vegas Web Studio</span></h1>
+    <p>Building modern, colorful, and tech-driven web experiences.</p>
+    <a href="#portfolio" class="btn">View My Work</a>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="about">
+    <h2>About Me</h2>
+    <p>Hello! I'm a passionate web developer who loves creating sleek and functional websites. 
+    From coding to design, I make sure every project looks professional and works smoothly.</p>
+  </section>
+
+  <!-- Services Section -->
+  <section id="services" class="services">
+    <h2>Services</h2>
+    <div class="service-cards">
+      <div class="card">Web Development</div>
+      <div class="card">UI/UX Design</div>
+      <div class="card">Responsive Design</div>
+    </div>
+  </section>
+   <!-- Floating WhatsApp button -->
+<a href="https://wa.me/2349130140473?text=Hello%20Vegas%20Studio%2C%20I%27d%20like%20to%20talk%20about%20your%20services." 
+   class="whatsapp-float" target="_blank" rel="noopener noreferrer" aria-label="Message Vegas on WhatsApp">
+  <!-- simple WhatsApp SVG icon -->
+  <svg viewBox="0 0 24 24" width="22" height="22" aria-hidden="true" focusable="false">
+    <path fill="#fff" d="M20.52 3.48A11.9 11.9 0 0 0 12 .5C6.21.5 1.5 5.21 1.5 11c0 1.95.51 3.76 1.4 5.33L1 23l6.94-1.82A11.44 11.44 0 0 0 12 22.5c5.79 0 10.5-4.71 10.5-10.5 0-2.82-1.1-5.44-3.98-7.52zM12 20.5c-1.1 0-2.17-.2-3.17-.58l-.24-.09-4.12 1.08 1.16-3.98-.16-.27A8.4 8.4 0 0 1 3.5 11c0-4.7 3.8-8.5 8.5-8.5 4.7 0 8.5 3.8 8.5 8.5S16.7 20.5 12 20.5z"></path>
+    <path fill="#fff" d="M17.2 14.9c-.3-.15-1.75-.86-2.02-.96-.28-.1-.48-.15-.68.15-.2.3-.77.96-.95 1.16-.17.2-.34.22-.63.07-.3-.15-1.26-.47-2.4-1.48-.89-.79-1.48-1.77-1.66-2.07-.17-.3-.02-.46.12-.61.12-.12.28-.3.42-.45.14-.15.19-.25.3-.42.1-.17.05-.3-.03-.45-.08-.15-.68-1.64-.93-2.25-.24-.6-.48-.52-.66-.53-.17-.02-.36-.02-.55-.02-.18 0-.46.06-.7.3-.24.25-.92.9-.92 2.2 0 1.3.94 2.56 1.07 2.74.12.17 1.85 2.86 4.48 3.9 2.63 1.06 2.63.71 3.1.67.46-.04 1.5-.6 1.71-1.18.2-.58.2-1.07.14-1.17-.06-.1-.24-.16-.54-.31z"></path>
+  </svg>
+</a>
+
+
+  <!-- Footer -->
+  <footer>
+    <p>© 2025 Vegas Web Studio | All Rights Reserved</p>
+  </footer>
+</body>
+</html>
